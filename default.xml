@@ -26,11 +26,11 @@
   </project>
   <project name="capdl.git" path="projects/capdl" upstream="loongarch" dest-branch="loongarch"/>
   <project name="global-components.git" path="projects/global-components" remote="seL4" revision="master" upstream="master" dest-branch="master"/>
-  <project name="libzmq" path="projects/libzmq" remote="zeromq" upstream="refs/tags/v4.2.5" dest-branch="refs/tags/v4.2.5"/>
-  <project name="lwip.git" path="projects/lwip" remote="lwip" upstream="refs/tags/STABLE-2_1_2_RELEASE" dest-branch="refs/tags/STABLE-2_1_2_RELEASE"/>
+  <project name="libzmq" path="projects/libzmq" remote="zeromq" revision="d062edd8c142384792955796329baf1e5a3377cd" upstream="refs/tags/v4.2.5" dest-branch="refs/tags/v4.2.5"/>
+  <project name="lwip.git" path="projects/lwip" remote="lwip" revision="159e31b689577dbf69cf0683bbaffbd71fa5ee10" upstream="refs/tags/STABLE-2_1_2_RELEASE" dest-branch="refs/tags/STABLE-2_1_2_RELEASE"/>
   <project name="musllibc.git" path="projects/musllibc" upstream="loongarch" dest-branch="loongarch"/>
-  <project name="picotcp.git" path="projects/picotcp" remote="picotcp" upstream="refs/tags/v1.7.0" dest-branch="refs/tags/v1.7.0"/>
-  <project name="polly" path="tools/polly" remote="polly" upstream="master" dest-branch="master"/>
+  <project name="picotcp.git" path="projects/picotcp" remote="picotcp" revision="13c00a067190f5ec62340ed932a2bb833c366d63" upstream="refs/tags/v1.7.0" dest-branch="refs/tags/v1.7.0"/>
+  <project name="polly" path="tools/polly" remote="polly" revision="ef7e79c2c297d456f2742fd0b976f555d058d4e0" upstream="master" dest-branch="master"/>
   <project name="projects_libs.git" path="projects/projects_libs" remote="seL4" revision="master" upstream="master" dest-branch="master"/>
   <project name="seL4.git" path="kernel" revision="loongarch-vm" upstream="loongarch-vm" dest-branch="loongarch-vm"/>
   <project name="seL4_libs" path="projects/seL4_libs" revision="loongarch-vm" upstream="loongarch-vm" dest-branch="loongarch-vm"/>

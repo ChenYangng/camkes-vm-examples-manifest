@@ -24,3 +24,13 @@ For detailed information about CAmkES see documentation in [the camkes-tool repo
 For detailed information about the VM on the C162 platform see the documention in [the camkes-vm repo](https://github.com/seL4/camkes-vm/blob/master/README.md).
 
 For detailed information about the example VM applications and how to build them see the documentation in [the camkes-vm-examples repo](https://github.com/seL4/camkes-vm-examples/blob/master/README.md).
+
+## Build for LoongArch
+```
+repo init -u https://github.com/ChenYangng/camkes-vm-examples-manifest.git -b loongarch
+repo sync
+mkdir build
+cd build
+../init-build.sh -DCAMKES_VM_APP=vm_minimal -DPLATFORM=3A5000 -DLOONGARCH64=1
+ninja
+```
